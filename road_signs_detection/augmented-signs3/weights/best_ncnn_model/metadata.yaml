@@ -1,0 +1,86 @@
+description: Ultralytics best model trained on /content/Indian_Trafficsigns_Detection-1/data.yaml
+author: Ultralytics
+date: '2025-04-12T13:26:07.996391'
+version: 8.3.107
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: 200 metres
+  1: Bump
+  2: Crossroads
+  3: Double curve first to left
+  4: Doublecurve_First to right
+  5: Narrow_Bridge
+  6: No_Horn
+  7: No_entry
+  8: No_left_Turn
+  9: No_overtaking
+  10: No_parking
+  11: Pedestrain_crossing
+  12: Restriction_end
+  13: Righthand_curve
+  14: Road_widens
+  15: Rumble_strip
+  16: Sideroad_toleft
+  17: Sideroad_toright
+  18: Twoway_hazardmarker
+  19: Uturn
+  20: bicycle
+  21: cattle
+  22: chevron_left
+  23: chevron_right
+  24: children
+  25: compulsory turn right
+  26: compulsory_ahead
+  27: compulsory_keep_left
+  28: compulsory_soundhorn
+  29: dangerous_curve_ahead
+  30: falling_rocks
+  31: gap_in_median
+  32: giveway
+  33: go_slow
+  34: height_limit
+  35: left_hand_curve
+  36: left_reverse_bend
+  37: length_limit
+  38: level crossing with barriers ahead
+  39: major_road_ahead
+  40: men_at_work
+  41: merging_traffic_from_left
+  42: narrowroad_ahead
+  43: no_stopping
+  44: no_uturn
+  45: object_hazzard_to_left
+  46: object_hazzard_to_right
+  47: one_way
+  48: petrol_station
+  49: roadnarrows_on_rightside
+  50: school_ahead
+  51: speed_limit_50
+  52: speedlimit_15
+  53: speedlimit_20
+  54: speedlimit_30
+  55: speedlimit_40
+  56: speedlimit_60
+  57: speedlimit_65
+  58: speedlimit_80
+  59: start_of_dual_carriageway
+  60: steep_ascent
+  61: steep_descent
+  62: stop
+  63: straight ahead prohibited
+  64: tjunction_major_road_ahead
+  65: triple_chevron
+  66: vehicles_may_pass_either
+  67: width_limit
+  68: yjunction
+  69: yjunction_to_left
+args:
+  batch: 1
+  half: false

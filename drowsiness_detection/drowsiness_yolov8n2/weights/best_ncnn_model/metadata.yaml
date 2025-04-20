@@ -1,0 +1,23 @@
+description: Ultralytics best model trained on /content/drowsiness-detection-11/data.yaml
+author: Ultralytics
+date: '2025-04-12T08:54:50.906229'
+version: 8.3.97
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: Eyes Closed
+  1: Hand Off Steering Wheel
+  2: Head Tilted Down
+  3: Normal Head Position
+  4: Not_Yawning
+  5: Yawning
+  6: eye open
+args:
+  batch: 1
+  half: false
